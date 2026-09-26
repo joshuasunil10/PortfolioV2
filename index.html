@@ -1,176 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Joshua Sunil Mathew – Software Developer & Computer Science Student. Portfolio, projects, and contact." />
-    <meta name="keywords" content="software developer, graduate developer, Dublin, Ireland, TU Dublin, full-stack, mobile development, Java, Python, Kotlin, JavaScript, computer science" />
-    <meta name="theme-color" content="#0a0a0f" />
-    <meta property="og:title" content="Joshua Sunil Mathew | Software Developer" />
-    <meta property="og:description" content="Computer Science Student at TU Dublin. Software development, AI & cloud." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Joshua Sunil Mathew — systems engineer and developer in Dublin." />
+    <meta name="theme-color" content="#080d16" />
+    <meta property="og:title" content="Joshua Sunil Mathew — Software Developer" />
+    <meta property="og:description" content="Software developer and computer science student in Dublin." />
     <meta property="og:type" content="website" />
-    <title>Joshua Sunil Mathew | Software Developer</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Joshua Sunil Mathew — Systems Engineer &amp; Developer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ec684d'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-size='16' font-weight='700' fill='%23f3efe7'%3EJ%3C/text%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <a href="#main" class="skip-link">Skip to main content</a>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="portfolio-shell">
+      <header class="site-header portfolio-sidebar">
+        <div class="sidebar-top"><a class="brand" href="#top" aria-label="Joshua Sunil Mathew home"><span class="brand-wordmark">JSM</span></a><span class="sidebar-location">Dublin, Ireland</span></div>
+        <div class="sidebar-intro"><div class="sidebar-avatar"><img src="Assets/images/JSM.jpg" alt="Joshua Sunil Mathew" width="299" height="299" /><span class="avatar-status"></span></div><h1>Joshua Sunil<br />Mathew</h1><p>Systems engineer<br />&amp; developer.</p><p class="sidebar-note">I build useful software, reliable systems, and thoughtful digital experiences.</p></div>
+        <nav class="site-nav sidebar-nav" aria-label="Main navigation"><a class="active" href="#about">About</a><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#toolkit">Toolkit</a><a href="#contact">Contact</a></nav>
+        <div class="sidebar-bottom"><a class="sidebar-availability" href="#contact"><span class="status-dot"></span>Available for work</a><div class="sidebar-socials"><a href="https://github.com/joshuasunil10" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/joshuasunilmathew/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:joshuasunilmathew10@gmail.com">Email ↗</a></div><span class="sidebar-copyright">© <span id="year"></span> JSM</span></div>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </header>
 
-    <header class="navbar-container">
-      <nav class="navbar" aria-label="Main navigation">
-        <a href="#about" class="navbar-link">About</a>
-        <a href="#projects" class="navbar-link">Projects</a>
-        <a href="#contact" class="navbar-link">Contact</a>
-        <span class="nav-badge" aria-hidden="true">Open to opportunities</span>
-        <span class="nav-location" aria-label="Location: Dublin, Ireland. Local time shown.">
-          <svg class="nav-pin-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
-          <span class="nav-location-text">Dublin, IE</span>
-          <span id="nav-time" class="nav-time"></span>
-        </span>
-        <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-        </button>
-      </nav>
-    </header>
+      <main id="main" class="portfolio-main">
+        <section class="content-section" id="about" aria-labelledby="about-title"><div class="section-heading"><span>01</span><h2 id="about-title">About</h2></div><div class="section-copy"><p>I’m a Computer Science graduate from TU Dublin with a focus on infrastructure, systems, and software development. I like taking messy problems, finding the simple shape inside them, and turning that shape into something reliable and useful.</p><p>My work sits across application development, IT operations, cloud tooling, and visual design. When I’m away from the screen, you’ll usually find me playing football, gaming, or experimenting with Adobe Creative Cloud.</p></div></section>
 
-    <main id="main">
-      <section class="hero" aria-labelledby="hero-heading">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-          <span class="hero-badge">Software Developer · TU Dublin</span>
-          <div class="about-image">
-            <img src="Assets/images/JSM.jpg" alt="Joshua Sunil Mathew" width="200" height="200" />
-          </div>
-          <h1 id="hero-heading">
-            Hi, I'm <span class="hero-name">Joshua Sunil Mathew</span>
-          </h1>
-          <p class="hero-tagline">I build full‑stack and mobile applications, with a focus on clean code and user experience. Interested in AI, cloud, and collaborative projects.</p>
-          <div class="hero-buttons">
-            <a href="#projects" class="hero-button">View projects</a>
-            <a href="Assets/Joshua_CV_2025.pdf" class="hero-button hero-button-outline" target="_blank" rel="noopener">Download CV</a>
-            <a href="#contact" class="hero-button hero-button-ghost">Get in touch</a>
-          </div>
-        </div>
-      </section>
+        <section class="content-section" id="experience" aria-labelledby="experience-title"><div class="section-heading"><span>02</span><h2 id="experience-title">Experience</h2></div><div class="section-copy"><div class="experience-progression"><article class="experience-row experience-current"><div class="experience-step"><span>02</span></div><div class="experience-content"><div class="experience-meta"><span>June 2026 — Present</span><span>Blanchardstown, Dublin</span></div><h3>Desktop Administrator</h3><p class="experience-company"><a class="company-link" href="https://www.ocuco.com/" target="_blank" rel="noopener"><img class="company-logo" src="Assets/images/ocuco-logo.png" alt="Ocuco logo" />Ocuco Limited <span>↗</span></a></p></div></article><article class="experience-row"><div class="experience-step"><span>01</span></div><div class="experience-content"><div class="experience-meta"><span>Jan 2025 — June 2026</span><span>Blanchardstown, Dublin</span></div><h3>IT Systems Intern</h3><p class="experience-company"><a class="company-link" href="https://www.ocuco.com/" target="_blank" rel="noopener"><img class="company-logo" src="Assets/images/ocuco-logo.png" alt="Ocuco logo" />Ocuco Limited <span>↗</span></a></p></div></article></div></div></section>
 
-      <section id="about" class="about" aria-labelledby="about-heading">
-        <p class="section-label">About</p>
-        <h2 id="about-heading">Background & skills</h2>
-        <p class="about-education">BSc Computer Science (Infrastructure) · Technological University Dublin</p>
-        <div class="about-text">
-          <p>
-            I'm a Computer Science student at Technological University Dublin, with a passion for software development and designing applications—and a keen interest in AI and cloud computing. I'm always ready to learn new technologies and tools.
-          </p>
-          <p>
-            When I'm not coding, I'm playing football, video games, or experimenting with Adobe Creative Cloud.
-          </p>
-        </div>
-        <ul class="skills-list" aria-label="Skills">
-          <li>C/C++</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Kotlin</li>
-          <li>PHP</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>MySQL</li>
-          <li>PostgreSQL</li>
-          <li>MongoDB</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Docker</li>
-          <li>AWS</li>
-          <li>CI/CD</li>
-          <li>Algorithms</li>
-          <li>Data Structures</li>
-        </ul>
-      </section>
+        <section class="content-section" id="work" aria-labelledby="work-title"><div class="section-heading"><span>03</span><h2 id="work-title">Projects</h2></div><div class="project-list"><a class="project-row" href="https://github.com/joshuasunil10/ByteCard" target="_blank" rel="noopener"><span class="project-year">2025</span><div class="project-row-body"><h3>ByteCard <span>↗</span></h3><p>A web platform for generating and sharing a virtual business card.</p><div class="project-tags"><span>Web</span><span>Full-stack</span></div></div><img src="Assets/images/ByteCard.gif" alt="ByteCard project preview" /></a><a class="project-row" href="https://github.com/joshuasunil10/TraveList-App-Android" target="_blank" rel="noopener"><span class="project-year">2024</span><div class="project-row-body"><h3>TraveList <span>↗</span></h3><p>An Android app for planning destinations and seeing the journey on a map.</p><div class="project-tags"><span>Kotlin</span><span>Google Maps</span></div></div><img src="Assets/images/green.gif" alt="TraveList project preview" /></a><a class="project-row" href="https://github.com/JamieIsMe/OOP-Group-Project" target="_blank" rel="noopener"><span class="project-year">2024</span><div class="project-row-body"><h3>Terminal Adventure <span>↗</span></h3><p>A multi-level team game built around a terminal-first world.</p><div class="project-tags"><span>Python</span><span>PyGame</span></div></div><img src="Assets/images/terminal.gif" alt="Terminal Adventure project preview" /></a><a class="project-row" href="https://github.com/joshuasunil10/MicroprocessorsGame" target="_blank" rel="noopener"><span class="project-year">2024</span><div class="project-row-body"><h3>SpaceShooter <span>↗</span></h3><p>An 8-bit arcade game built in C for the STM32 Nucleo board.</p><div class="project-tags"><span>C</span><span>PlatformIO</span></div></div><img src="Assets/images/SpaceShooter.gif" alt="SpaceShooter project preview" /></a></div><a class="resume-link" href="Assets/Joshua_CV_2025.pdf" target="_blank" rel="noopener">View my CV <span>↗</span></a></section>
 
-      <section id="projects" class="projects-section" aria-labelledby="projects-heading">
-        <div class="projects">
-          <p class="section-label">Work</p>
-          <h2 id="projects-heading">Selected projects</h2>
-          <p class="projects-intro">Full‑stack, mobile, and systems work—from university and side projects.</p>
-          <div class="project-grid">
-            <a href="https://github.com/JamieIsMe/OOP-Group-Project" target="_blank" rel="noopener" class="project-card" style="--card-bg: url('Assets/images/terminal.gif')">
-              <div class="project-card-overlay">
-                <span class="project-tags">Python · PyGame</span>
-                <h3>Python Terminal Adventure Game</h3>
-                <p>Multi-level team project: terminal-based game in Python. I contributed to the opening level and used the PyGame library.</p>
-              </div>
-            </a>
-            <a href="https://github.com/joshuasunil10/Java-Search-Engine---OOP" target="_blank" rel="noopener" class="project-card" style="--card-bg: url('Assets/images/test.gif')">
-              <div class="project-card-overlay">
-                <span class="project-tags">Java · OOP</span>
-                <h3>Java Search Engine</h3>
-                <p>Search engine over a directory of .txt files, built with OOP principles in Java.</p>
-              </div>
-            </a>
-            <a href="https://github.com/joshuasunil10/TraveList-App-Android" target="_blank" rel="noopener" class="project-card project-card-travelist" style="--card-bg: url('Assets/images/ByteCard.gif')">
-              <div class="project-card-overlay">
-                <span class="project-tags">Kotlin · Android · Google Maps</span>
-                <h3>TraveList Android App</h3>
-                <p>Travel app in Android Studio with Kotlin. Plan holiday destinations and view them in Google Maps.</p>
-              </div>
-            </a>
-            <a href="https://github.com/joshuasunil10/MicroprocessorsGame" target="_blank" rel="noopener" class="project-card" style="--card-bg: url('Assets/images/SpaceShooter.gif')">
-              <div class="project-card-overlay">
-                <span class="project-tags">C · PlatformIO · STM32</span>
-                <h3>SpaceShooter</h3>
-                <p>8-bit arcade game in C with PlatformIO for the Microprocessors module, on STM32 Nucleo.</p>
-              </div>
-            </a>
-            <a href="https://github.com/joshuasunil10/ByteCard" target="_blank" rel="noopener" class="project-card project-card-featured" style="--card-bg: url('Assets/images/ByteCard.gif')">
-              <div class="project-card-overlay">
-                <span class="project-tags">Web · Full-stack</span>
-                <h3>ByteCard</h3>
-                <p>Web project: generate your own virtual business card on our platform.</p>
-              </div>
-            </a>
-            <a href="#contact" class="project-card" style="--card-bg: url('Assets/images/Other.gif')">
-              <div class="project-card-overlay">
-                <h3>Always building…</h3>
-                <p>Have an idea? Let's talk.</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
+        <section class="content-section" id="toolkit" aria-labelledby="toolkit-title"><div class="section-heading"><span>04</span><h2 id="toolkit-title">Toolkit</h2></div><div class="section-copy"><p>Technologies I’ve used to turn ideas into working things.</p><div class="skill-cloud"><span>JavaScript</span><span>Python</span><span>Java</span><span>Kotlin</span><span>Node.js</span><span>SQL</span><span>Docker</span><span>AWS</span><span>Git</span><span>Linux</span><span>PowerShell</span><span>C / C++</span><span>HTML &amp; CSS</span><span>CI/CD</span></div></div></section>
 
-      <section id="contact" class="contact" aria-labelledby="contact-heading">
-        <div class="contact-inner">
-          <p class="section-label">Contact</p>
-          <h2 id="contact-heading">Let's work together</h2>
-          <p class="contact-lead">Seeking graduate roles, internships, and contract work—Dublin or remote. Open to collaborations too.</p>
-          <div class="contact-links">
-            <a href="https://github.com/joshuasunil10" target="_blank" rel="noopener" class="contact-link" aria-label="GitHub">
-              <svg class="contact-icon" viewBox="0 0 24 24" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.41 1.02.005 2.04.14 3 .41 2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            </a>
-            <a href="https://www.linkedin.com/in/joshuasunilmathew/" target="_blank" rel="noopener" class="contact-link" aria-label="LinkedIn">
-              <svg class="contact-icon" viewBox="0 0 24 24" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
-            <a href="mailto:joshuasunilmathew10@gmail.com" class="contact-button">
-              <span class="contact-button-text">Email me</span>
-              <span class="contact-button-arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p>© <span id="year">2025</span> Joshua Sunil Mathew</p>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+        <section class="content-section contact-section" id="contact" aria-labelledby="contact-title"><div class="section-heading"><span>05</span><h2 id="contact-title">Contact</h2></div><div class="section-copy"><p>I’m open to new opportunities, thoughtful collaborations, and conversations about building better things.</p><a class="contact-email" href="mailto:joshuasunilmathew10@gmail.com">joshuasunilmathew10@gmail.com <span>↗</span></a></div></section>
+      </main>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
